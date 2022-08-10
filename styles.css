@@ -108,13 +108,13 @@ body {
 
 .small_price {
     font-family: Montserrat;
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: hsl(228, 12%, 48%);
     font-weight: normal;
     vertical-align: bottom;
     line-height: 2rem;
     padding-left: 0.5rem;
-
+    text-decoration: line-through
 }
 
 .mybutton {
