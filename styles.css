@@ -1,0 +1,150 @@
+body {
+    width: 1440px;
+    height: 800px;
+    margin: 0;
+}
+
+.outsidediv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 1440px;
+    height: 800px;
+    background: #F2EBE3;
+    margin: 0 auto;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 300px;
+    height: 450px;
+    background-image: url("/images/image-product-desktop.jpg");
+    background-position: center;
+    background-size: 100%;
+
+    mix-blend-mode: normal;
+
+
+}
+
+.right {
+
+    display: inline-block;
+    width: 300px;
+    max-width: 300px;
+
+    margin-bottom: 30px;
+
+
+}
+
+.perfume {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.41em;
+    color: #000000;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+.header {
+    /* Gabrielle Essence Eau De Parfum */
+
+    padding-left: 2rem;
+    width: 226px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 0;
+
+    color: #000000;
+}
+
+.text {
+    padding-left: 2rem;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    padding-right: 2rem;
+    line-height: 1.5rem;
+    font-family: Montserrat;
+}
+
+.price {
+    font-family: 'Fraunces';
+    font-size: 2rem;
+    padding-left: 2rem;
+    color: hsl(158, 36%, 37%);
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.small_price {
+    font-family: Montserrat;
+    font-size: 1rem;
+    color: hsl(228, 12%, 48%);
+    font-weight: normal;
+    vertical-align: bottom;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+
+}
+
+.mybutton {
+    background-color: hsl(158, 36%, 37%);
+    font-family: Montserrat;
+    font-size: 0.7rem;
+    border: 0;
+    border-radius: 0.5rem;
+    color: #fff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+    max-width: 236px;
+    height: 3.125rem;
+    vertical-align: bottom;
+    line-height: 2rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+}
+
+.mybutton:hover {
+    background-color: hsl(158, 36%, 20%);
+    /* Green */
+    color: white;
+}
+
+svg {
+    vertical-align: middle;
+    line-height: 2rem;
+    padding-right: 0.5rem;
+}
