@@ -141,6 +141,7 @@ body {
     background-color: hsl(158, 36%, 20%);
     /* Green */
     color: white;
+    font-weight: bold;
 }
 
 svg {
